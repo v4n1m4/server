@@ -1,7 +1,7 @@
 # server
- Documenting any progress made on production server development.
+ Documenting any progress made on a Rocky Linux development server.
 
 # Progress
-Initial setup of server complete. Pending completion of ongoing works before documenting firewall & security protocol implementation. 
+Pending completion of other ongoing works before continuing further firewall & security protocol implementations. 
 
 Working with [@ucubed](https://github.com/ucubed/) (Gits will be merged soon).
