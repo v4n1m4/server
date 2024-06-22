@@ -9,7 +9,7 @@
 
 ## Setup SSH-Auth-Only
 - mkdir .ssh
-- add ssh keys that you wish to have root access to *nano /.ssh/authorized_keys* *(dnf install nano if nano is not installedm you can also use pre-installed vi editor)*
+- add ssh keys that you wish to have root access: *nano /.ssh/authorized_keys* *(dnf install nano if nano is not pre-installed, vi editor usually pre-installed)*
 - *mkdir /home/team/.ssh* & *nano /home/team/.ssh/authorized_keys* to add keys to the team account. 
 - *nano /etc/ssh/sshd_config* and uncomment "Port", change default ssh port from "22" to an open port within port range. *PasswordAuthentication* and blank passwords set to "No". Ensure pubkey authentication is enabled and set to the /.ssh/authorized_keys file.
 - ctrl+o to save on nano (:wq on vi) & *systemctl restart sshd* to restart the SSH daemon.
