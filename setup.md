@@ -3,7 +3,7 @@
 - systemctl start firewall-cmd
 
 ## Setup sub-account with wheel permission group. 
-- adduser // *user*
+- adduser *user*
 - password *user*
 - usermod -aG wheel *user*
 
